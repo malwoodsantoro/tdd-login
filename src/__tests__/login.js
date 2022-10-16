@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
 import Login from "../components/Login";
 
 test("onSubmit function is called with username and password", () => {
